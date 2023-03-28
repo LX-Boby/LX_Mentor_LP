@@ -1,11 +1,3 @@
-/**
-* Template Name: Arsha
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -377,12 +369,11 @@ a:hover {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
   background: #E0E2E7;
 }
 
 #hero .container {
-  padding-top: 72px;
+  padding-top: 60px;
 }
 
 #hero h1 {
@@ -556,12 +547,11 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding: 12px 0;
   text-align: center;
 }
 
 .clients img {
-  max-width: 45%;
+  max-width: 40%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
@@ -1738,10 +1728,10 @@ section {
 }
 
 #footer .footer-top h2 {
-  font-weight: bold;
-  color: #AD1D35;
+  font-weight: bolder;
+  color: #475467;
   position: relative;
-  padding-bottom: 12px;
+  padding-left: 30px;
 }
 
 #footer .footer-top .footer-links {
@@ -1848,4 +1838,191 @@ section {
 
 .box-bottom {
   border-radius: 200px 0px 0px 0px;
+}
+
+/*--------------------------------------------------------------
+# Mentors
+--------------------------------------------------------------*/
+.mentors .icon-box {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  background: #fff;
+}
+
+.mentors .icon-box .icon {
+  margin-bottom: 10px;
+}
+
+.mentors .icon-box .icon i {
+  color: #BC1E2D;
+  font-size: 36px;
+  transition: 0.3s;
+}
+
+.mentors .icon-box h4 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.mentors .icon-box h4 a {
+  color: #AD1D35;
+  transition: ease-in-out 0.3s;
+}
+
+.mentors .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.mentors .icon-box:hover {
+  transform: translateY(-10px);
+}
+
+.mentors .icon-box:hover h4 a {
+  color: #BC1E2D;
+}
+
+.mentors .label {
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #959DAD;
+}
+
+.mentors .label-secondary {
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 10px 10px 0px 28px;
+  transition: 0.5s;
+  color: #777070;
+}
+
+.mentors .profile {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items:baseline;
+  justify-content: center;
+  margin: 10px 0px 10px 0px;
+  overflow: hidden;
+  width: 50px;
+  border-radius: 50%;
+  height: 48px;
+  background: #eff2f8;
+}
+
+.mentors .availability {
+  font-weight: bolder;
+  color: #ed3c0d;
+}
+
+.mentors .mentor-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.mentors .mentor-course {
+  padding: 16px 16px 0px 16px;
+  width: 420px;
+}
+
+.mentors .mentor-img-course {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+@media (max-width: 1396px) {
+  .mentors .mentor-course {
+    width: 360px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .mentors .mentor-course {
+    width: 300px;
+  }
+}
+
+@media (max-width: 991px) {
+  .mentors .mentor-course {
+    width: 340px;
+  }
+}
+
+/* Footer */
+
+#footer .info {
+  padding: 30px;
+  width: 100%;
+}
+
+#footer .info i {
+  font-size: 20px;
+  color: #475467;
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+#footer .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #475467;
+}
+
+#footer .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #475467;
+}
+
+#footer .info .social-links {
+  padding-left: 60px;
+}
+
+#footer .info .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+#footer .info .social-links a:hover {
+  background: #BC1E2D;
+  color: #fff;
+}
+
+#footer .info .email:hover i,
+#footer .info .address:hover i,
+#footer .info .phone:hover i {
+  background: #BC1E2D;
+  color: #fff;
 }
