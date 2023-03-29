@@ -2038,3 +2038,9 @@ section {
   background: #BC1E2D;
   color: #fff;
 }
+
+@media (max-width: 768px) {
+  #footer .footer-top h2 {
+    text-align: center;
+  }
+}
